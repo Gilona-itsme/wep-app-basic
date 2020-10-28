@@ -2,7 +2,7 @@ const express = require('express');
 const exhbs = require("express-handlebars")
 const app = express();
 const products = require("./products.json")
-const port = 1208;
+const PORT = process.env.PORT || 1208;
 
 app.use(express.static('public'));
 
@@ -28,6 +28,6 @@ app.get("/product/:productId", (req, res) => {
 });
 
 
-app.listen(port, () => {
+app.listen(PORT, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });
