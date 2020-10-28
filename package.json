@@ -1,0 +1,26 @@
+{
+  "name": "wep-app-basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gilona-itsme/wep-app-basic.git"
+  },
+  "author": "Ilona Gil <ilona.gil@outlook.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gilona-itsme/wep-app-basic/issues"
+  },
+  "homepage": "https://github.com/Gilona-itsme/wep-app-basic#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
